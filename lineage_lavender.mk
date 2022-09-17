@@ -35,6 +35,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V11.0.5.0.PFGMIXM release-keys"
+    PRIVATE_BUILD_DESC="bluejay-user 13 TP1A.220905.004.A2 9014697"
 
-BUILD_FINGERPRINT :="google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys"
+BUILD_FINGERPRINT :="google/bluejay/bluejay:13/TP1A.220905.004.A2/9014697:user/release-keys"
