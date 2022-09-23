@@ -16,9 +16,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 RICE_MAINTAINER := JojiOnThatBeat•ShizukaHinode
 RICE_OFFICIAL := true
 TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_ENABLE_BLUR := true
+
+# Arrow GApps
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
