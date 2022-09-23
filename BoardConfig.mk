@@ -53,6 +53,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_KERNEL_CLANG_VERSION := dora
+TARGET_CLANG_PREBUILTS_VERSION := dora
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-dora
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
