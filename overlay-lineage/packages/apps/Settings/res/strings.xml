@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 The Android Open Source Project
+-->
+<resources>
+    <!-- Maintainer info -->
+    <string name="config_maintainer_name" translatable="false">Shizuka Hinode</string>
+    <string name="config_maintainer_link"  translatable="false">https://t.me/Shizukachanwa</string>
+</resources>
